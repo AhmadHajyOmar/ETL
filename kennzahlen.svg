@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="720" height="360" viewBox="0 0 720 360"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<desc>Temperature Mittelwert Diagramm</desc>
+<!-- Hintergrund weiss -->
+<rect x="0" y="0" width="720" height="360" rx="15" fill="white"></rect>
+<!-- Achsen und Beschriftungen -->
+<text x="90" y="350" fill="black">00-06</text>
+<text x="270" y="350" fill="black">06-12</text>
+<text x="450" y="350" fill="black">12-18</text>
+<text x="630" y="350" fill="black">18-24</text>
+<!-- y-Achse Beschriftung -->
+<text x="10" y="10" fill="black">Temp ( C)</text>
+<!-- Polyline fuer die Mittelwerte -->
+<polyline points="90,144.7 270,38.10000000000002 450,76.19999999999999 630,58.19999999999999" fill="none" stroke="blue" stroke-width="2"/>
+<polyline points="90,122.89999999999998 270,79.30000000000001 450,96.60000000000002 630,77.89999999999998" fill="none" stroke="green" stroke-width="2"/>
+<!-- Linienbeschriftungen -->
+<text x="650" y="50" fill="blue">Temp1</text>
+<text x="650" y="70" fill="green">Temp2</text>
+"<circle cx="90" cy="144.7" r="4" fill="blue" /><text x="93" y="149.7" fill="blue">21.53</text><circle cx="90" cy="122.89999999999998" r="4" fill="green" /><text x="93" y="127.89999999999998" fill="green">23.71</text><circle cx="270" cy="38.10000000000002" r="4" fill="blue" /><text x="273" y="43.10000000000002" fill="blue">32.19</text><circle cx="270" cy="79.30000000000001" r="4" fill="green" /><text x="273" y="84.30000000000001" fill="green">28.07</text><circle cx="450" cy="76.19999999999999" r="4" fill="blue" /><text x="453" y="81.19999999999999" fill="blue">28.38</text><circle cx="450" cy="96.60000000000002" r="4" fill="green" /><text x="453" y="101.60000000000002" fill="green">26.34</text><circle cx="630" cy="58.19999999999999" r="4" fill="blue" /><text x="633" y="63.19999999999999" fill="blue">30.18</text><circle cx="630" cy="77.89999999999998" r="4" fill="green" /><text x="633" y="82.89999999999998" fill="green">28.21</text>"
+</svg>
